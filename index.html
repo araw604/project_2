@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title> 100 mile </title>
+		<link rel="stylesheet" href="reset.css">
+		
+		<link rel="stylesheet" href="style.css">
+		
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+				
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js"></script>
+		<script src="js/jquery.bxslider.min.js"></script>
+		
+		<link href="js/jquery.bxslider.css" rel="stylesheet"/>
+		<script src='script.js'></script>
+		
+
+	</head>
+	<body>
+		<header class="backgroundpic">
+			<nav>
+				<ul>
+					<li>ABOUT</li>
+					<li>MENU</li>
+					<li>RESERVATIONS</li>
+					<li>CONTACT</li>
+				</ul>
+			</nav>
+			<div class='foodimage'>
+				
+				<img src="assets/images/100-mile-logo-long.svg" alt="100 Mile Resto Bar Logo">
+				
+			</div>
+			<div class="motto">
+				<p>Grown here.</p>
+				<p>Made here.</P>
+				<p>Eaten here.</p>
+			</div>
+			<div class="button">
+				<button> 
+				SEE OUR MENU>
+				</button> 
+			</div>
+			<div class="open">
+				
+				 <p>It's <span class="day-of-week"></span></p>
+				 <p class="business-hours"></p>
+				
+			</div>
+		</header>
+
+
+		<div>
+
+		<h1 class="localflav">LOCAL FLAVOURS</h1>
+
+		<p class="localtext">Our menu is fresh, delicious, and locally sourced. We fuse flavour, seasonal and local ingredients with inspiration from out local neighbourhood.</p>
+
+		<p class="localtext">Gastropub Truffaut salvia mumblecore kitsch, sartorial meggings bitter tofu. Gluten-free shabby-chic leggings viral, Schlitz Banksmy mixtape normcore four loko.</p>
+		</div>
+
+		<div> 
+			<ul class="bxslider">
+			  <li><img src="assets/images/slider_images/bread-stone.jpg" /></li>
+			  <li><img src="assets/images/slider_images/dish.jpg" /></li>
+			  <li><img src="assets/images/slider_images/herbs.jpg" /></li>
+			  <li><img src="assets/images/slider_images/juice.jpg" /></li>
+			  <li><img src="assets/images/slider_images/knives-forks.jpg" /></li>
+			  <li><img src="assets/images/slider_images/sweet-cakes.jpg" /></li>
+			  <!-- <li><img src="/images/pic3.jpg" /></li>
+			  <li><img src="/images/pic4.jpg" /></li> -->
+			</ul>
+		</div>
+		<div class="foodanddrinks">
+			<h1 class="foodheading"> FOOD & DRINK </h1>
+
+			<div class="flextozeebox">
+				<!-- <h2 class="cuttelry">Forks</h2> -->
+				<div class="forks">
+					<ul>
+						<li> <strong> Forks</strong></li>
+						<li>Foraged Fried Green Tomato - $10</li>
+						<li>Braised Blackberry Poutine - $12</li>
+						<li>Pickled Kale Salad - $15</li>
+						<li>Gnocchi on a Rock - $23</li>
+					</ul>
+				</div>
+				<!-- <h2 class="cuttelry">Knives </h2> -->
+				<div class="knives">
+					<ul>
+						<li> <strong> Knives</strong></li>
+						<li>Truffled Bacon - $10</li>
+						<li>Pickled Deer with Saffron - $12</li>
+						<li>Braised Boar & Waffles - $15</li>
+						<li>Organic Salted Pasta - $16</li>
+						<li>Free Range Pork Belly - $23</li>
+					</ul>
+				</div>
+				<!-- <h2 class="cuttelry">Glasses </h2> -->
+				<div class="glasses">
+					<ul>
+						<li><strong> Glasses </strong></li>
+						<li>Artisnal Water - $4</li>
+						<li>Hand-Pressed Fruit-Juice - $5</li>
+						<li>Craft Beer - $5 glass / $7 pint</li>
+						<li>Organic House Red or White - $10</li>
+					</ul>
+
+				</div>
+			</div>
+		</div>
+
+		<div class="bookatable">
+			<p class="bookheading">BOOK A TABLE</p>
+
+			<p class="booktext">If you would like to book a table at 100 Mile Resto Bar for up to 8 people, please use our booking form below. We will send you confirmation as soon as we can.</p>
+			<!-- <div class="lableboxdad">
+				<div class="lableboxes">
+					<label>WHICH DATE?<br />
+					<input type="text" name="date"/></label>
+		     		<br />
+					<label>WHAT TIME?<br />
+					<input type="text" name="time"/></label>
+					<br /> 
+					<label>NO. OF PEOPLE<br />
+					<input type="text" name="people"/></label>
+					<br />
+				</div>
+				<div class="lableboxes">
+					<label>YOUR NAME <br />
+					<input type="text" name="name"/></label>
+					<br />
+					<label>PHONE <br />
+					<input type="text" name="phone"/></label>
+					<br />			
+					<label> EMAIL <br />
+					<input type="text" name="email"/></label>
+					<br />
+				</div>
+			</div> -->
+
+
+			<div class="lableboxdad">
+				<div class="lableboxes">
+<div class="abcd1">
+  <span>
+					<label>WHICH DATE?<br />
+					
+					<input type="text" id="datepicker" name="date"> 
+					</label>
+		     		<br />
+    </span>
+  <span>
+					<label>WHAT TIME?<br />
+					<input type="text" name="time"/></label>
+					<br /> 
+  </span>
+					<label>NO. OF PEOPLE<br />
+					<input type="text" name="people"/></label>
+					<br />
+				</div>
+  </div>
+				<div class="lableboxes">
+          <div class="abcd1">
+          <span>
+					<label>YOUR NAME <br />
+					<input type="text" name="name"/></label>
+            <br /></span>
+          <span>
+					<label>PHONE <br />
+					<input type="text" name="phone"/></label>
+            <br />			</span>
+					<label> EMAIL <br />
+					<input type="text" name="email"/></label>
+					<br />
+				</div>
+  </div>
+			</div>
+
+			<div class="button2">
+			<button>
+			BOOK NOW >
+			</button> 
+			</div>
+		</div>
+
+		
+		<div class="clearfix">
+		<div class="findusbox">
+			<p class="findus">FIND US</p>
+			 <div class="findusbox1">
+			<i class="fa fa-map-marker fa-2x"></i>
+
+			<ul>
+				<li>1490 W Broadway, </li>
+				<li>Vancouver BC </li>
+			</ul>
+			</div>
+			<div class="findusbox2">
+			<i class="fa fa-phone fa-2x"></i>
+			<p class="pstuff">604-604-6040</p>
+			</div>
+			<div class="findusbox3">
+			<i class="fa fa-envelope fa-2x"></i>
+			<p class="pstuff">info@hundredmilerestobar.com</p>
+			</div>
+		</div>
+		</div>
+		<div>
+			
+		</div>
+
+		<div class="bottombackground">
+			<div class="clearfix">
+				<div class="stackedlogo">
+				<img src="assets/images/100-mile-logo-stacked.svg" alt="100 Mile Resto Bar Logo">
+			</div>
+	
+		
+				<div class="followus">
+					<p class="folloustext">Follow us on:</p>
+
+					<i class="fa fa-facebook fa-2x"></i>
+					<i class="fa fa-twitter fa-2x"></i>
+					<i class="fa fa-instagram fa-2x"></i>
+					<p class="copyright">© 100 Mile Resto Bar 2015</p>
+				</div>
+			</div>
+
+			
+		</div>
+		<script src='script.js'></script>
+
+	</body>
+
